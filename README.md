@@ -1,6 +1,10 @@
 # NGL-Model-Viewer
 Framework for rendering atomic structures in 3D on the web. 
 
+#Set-up
+
+Webapp3.html calls ngl.js to load and render 3d model data in browser. ngl.js creates a canvas in <div id="viewport">
+
 
 #Known Bugs
 1) Canvas goes black on mobile after only a few seconds of inactivity. Visible on firefox/safari/chrome on MacOS. 
